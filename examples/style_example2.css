@@ -1,0 +1,32 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 40rem;
+    margin: auto;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
+
+li a:hover::after {
+    content: " @";
+}
+
+main {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: darkgoldenrod;
+}
